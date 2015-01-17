@@ -24,11 +24,7 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="bass" revision="lollipop-release" />
   <project path="system/core" name="platform_system_core" remote="bass" revision="lollipop-release" />
-  
-  <!--Vendor Repos-->
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
-  <project path="vendor/moto" name="proprietary_vendor_motorola" remote="bass" revision="cm-12.0" />
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.0" />
+  <project path="vendor" name="proprietary_vendor" remote="bass" revision="lollipop-release" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
