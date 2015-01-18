@@ -24,6 +24,8 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="external/busybox" name="platform_external_busybox" remote="bass" revision="lollipop" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="bass" revision="lollipop-release" />
+  <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="bass" revision="lollipop" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="bass" revision="lollipop" />
   <project path="system/core" name="platform_system_core" remote="bass" revision="lollipop-release" />
   <project path="vendor" name="platform_vendor" remote="bass" revision="lollipop-release" />
 
